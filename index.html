@@ -2,18 +2,16 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Countdown Timer</title>
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
-  <body>
+  <body onload="loadCountdown()">
     <div class="container">
       <h1>Countdown Timer</h1>
-        <div class="arsec">
-         <p id="countdown">1h 30m 0s</p>
-        </div>
+      <p id="countdown">1h 30m 0s</p>
       <button id="startBtn" onclick="startCountdown()">Start</button>
     </div>
+
     <script src="script.js"></script>
   </body>
 </html>
