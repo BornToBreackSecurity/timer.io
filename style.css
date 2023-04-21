@@ -1,38 +1,23 @@
-body{
-  background: #000;
-}
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-  }
-  
-  h1 {
-    margin-bottom: 10px;
-  }
-  
-  p {
-    font-size: 50px;
-    text-align: center;
-  }
-  
-  button {
-    padding: 10px 20px;
-    font-size: 24px;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 10%;
-    width: 200px;
-    background: #000;
-    color: #fff;
-    border: solid 2px #00FFFF;
-  }
-  .arsec {
-    border: solid 2px #fff;
-    width: 300px;
-    height: 150px;
-    margin-top: 15%;
-    border-radius: 5px;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 24px;
+  border-radius: 5px;
+  cursor: pointer;
+}
