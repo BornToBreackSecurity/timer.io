@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Countdown Timer</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
-  <body onload="loadCountdown()">
-    <div class="container">
-      <h1>Countdown Timer</h1>
-      <p id="countdown">1h 30m 0s</p>
-      <button id="startBtn" onclick="startCountdown()">Start</button>
+<head>
+  <meta charset="UTF-8">
+  <title>Countdown Timer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="countdown-container">
+    <div class="countdown-timer">
+      <div class="countdown-text">Countdown:</div>
+      <div class="countdown-clock">
+        <span id="countdown-hours"></span>h :
+        <span id="countdown-minutes"></span>m :
+        <span id="countdown-seconds"></span>s
+      </div>
+      <button id="start-button">Start</button>
     </div>
-
-    <script src="script.js"></script>
-  </body>
+  </div>
+  <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-database.js"></script>
+  <script src="script.js"></script>
+</body>
 </html>
